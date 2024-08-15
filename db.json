@@ -1,0 +1,240 @@
+{
+  "rooms": [
+    {
+      "id": "2",
+      "name": "اتاق استاندارد",
+      "price": 700000,
+      "description": "یک اتاق راحت با یک تخت کوئین، منظره شهر، و امکانات اولیه.",
+      "capacity": 2,
+      "images": [
+        "/images/roomsImage/standard-room1.jpg",
+        "/images/roomsImage/standard-room2.jpg",
+        "/images/roomsImage/standard-room3.jpg"
+      ],
+      "likes": 0,
+      "dislikes": 0,
+      "availability": [
+        {
+          "date": "2024-08-01",
+          "isAvailable": true
+        },
+        {
+          "date": "2024-08-02",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "سوئیت خانوادگی",
+      "price": 1500000,
+      "description": "یک سوئیت بزرگ با دو اتاق خواب، یک اتاق نشیمن و یک آشپزخانه کوچک، مناسب برای خانواده ها.",
+      "capacity": 4,
+      "images": [
+        "/images/roomsImage/family-suite1.jpg",
+        "/images/roomsImage/family-suite2.jpg",
+        "/images/roomsImage/family-suite3.jpg"
+      ],
+      "likes": 0,
+      "dislikes": 0,
+      "availability": [
+        {
+          "date": "2024-08-01",
+          "isAvailable": true
+        },
+        {
+          "date": "2024-08-02",
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "سوئیت خانوادگی",
+      "price": 1500000,
+      "description": "یک سوئیت بزرگ با دو اتاق خواب، یک اتاق نشیمن و یک آشپزخانه کوچک، مناسب برای خانواده ها.",
+      "capacity": 4,
+      "images": [
+        "/images/roomsImage/family-suite2.jpg",
+        "/images/roomsImage/family-suite1.jpg",
+        "/images/roomsImage/family-suite3.jpg"
+      ],
+      "likes": 0,
+      "dislikes": 0,
+      "availability": [
+        {
+          "date": "2024-08-01",
+          "isAvailable": true
+        },
+        {
+          "date": "2024-08-02",
+          "isAvailable": true
+        }
+      ]
+    }
+  ],
+  "restaurant": [
+    {
+      "id": "1",
+      "name": "رستوران آریا",
+      "type": "ایرانی",
+      "description": "رستوران آریا با بهترین غذاهای ایرانی."
+    }
+  ],
+  "details": [
+    {
+      "id": "1",
+      "name": "پاستا کربونارا",
+      "type": "ایتالیایی",
+      "price": 200000,
+      "description": "پاستای کلاسیک ایتالیایی با سس خامه‌ای، بیکن و پنیر پارمزان.",
+      "images": [
+        "/images/foodsImage/carbonara1.jpg",
+        "/images/foodsImage/carbonara2.jpg"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "سوشی",
+      "type": "ژاپنی",
+      "price": 150000,
+      "description": "سوشی تازه با انواع ماهی و سبزیجات، سرو شده با سس سویا و واسابی.",
+      "images": [
+        "/images/foodsImage/sushi1.jpg",
+        "/images/foodsImage/sushi2.jpg"
+      ],
+      "rating": 4
+    },
+    {
+      "id": "3",
+      "name": "مرغ تیکا ماسالا",
+      "type": "هندی",
+      "price": 180000,
+      "description": "کاری مرغ تند پخته شده در سس گوجه فرنگی غنی با ماست خامه‌ای.",
+      "images": [
+        "/images/foodsImage/tikka1.jpg",
+        "/images/foodsImage/tikka2.jpg"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "4",
+      "name": "برگر گوشت",
+      "type": "آمریکایی",
+      "price": 120000,
+      "description": "برگر گوشت آبدار با کاهو، گوجه فرنگی و پنیر چدار، سرو شده با سیب‌زمینی سرخ کرده.",
+      "images": [
+        "/images/foodsImage/burger1.jpg",
+        "/images/foodsImage/burger2.jpg"
+      ],
+      "rating": 4.2
+    }
+  ],
+  "foods": [
+    {
+      "id": "1",
+      "name": "چلوکباب",
+      "description": "کباب ایرانی با برنج زعفرانی و گوجه فرنگی کبابی.",
+      "price": 200000,
+      "images": [
+        "/images/foodsImage/food-07.jpg",
+        "/images/foodsImage/food-08.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "خورشت قورمه سبزی",
+      "description": "خورشت محبوب ایرانی با گوشت، سبزیجات و لوبیا.",
+      "price": 180000,
+      "images": [
+        "/images/foodsImage/food-09.jpg",
+        "/images/foodsImage/food-01.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "باقالی پلو با ماهیچه",
+      "description": "برنج با باقالی و شوید، همراه با ماهیچه گوشت.",
+      "price": 250000,
+      "images": [
+        "/images/foodsImage/sushi1.jpg",
+        "/images/foodsImage/sushi2.jpg"
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "id": 100,
+      "title": "پنکیک کره‌ای",
+      "category": "صبحانه",
+      "price": 15.99,
+      "img": "./images/item-1.jpeg",
+      "desc": "من یک بچه‌ام که عاشق شیر ویتامین‌دار، قهوه‌ی تلخ و لبه‌های تیز و تند هستم، با ماگ مسی بازیافتی و هر چیزی که سرد تهیه می‌شود."
+    },
+    {
+      "id": 200,
+      "title": "ساندویچ دوبل",
+      "category": "ناهار",
+      "price": 13.99,
+      "img": "./images/item-2.jpeg",
+      "desc": "دستگاه‌های هوشمند بی‌فایده، شلوار جین خام، رژیم کم‌کربوهیدرات، شلوار لگینگ با طعم‌های کره‌ای. مارفا و گربه‌های رعدآسا"
+    },
+    {
+      "id": 300,
+      "title": "میلک‌شیک گودزیلا",
+      "category": "شیک‌ها",
+      "price": 6.99,
+      "img": "./images/item-3.jpeg",
+      "desc": "کامبوچا، سبک موج سرد، کیف کمر، 3 گرگ ماه، هنر خیابانی، کابین عکاسی قبل از اینکه فروخته شوند، ویروسی ارگانیک."
+    },
+    {
+      "id": 400,
+      "title": "لذت کشور",
+      "category": "صبحانه",
+      "price": 20.99,
+      "img": "./images/item-4.jpeg",
+      "desc": "سبک قدیمی، دستمال گردن شیک، موج میان‌وعده، شکم خوک، شورچ. منشور آستین، شیر ویتامین‌دار، تروفو،"
+    },
+    {
+      "id": 500,
+      "title": "حمله تخم‌مرغی",
+      "category": "ناهار",
+      "price": 22.99,
+      "img": "./images/item-5.jpeg",
+      "desc": "فرانزن، وگان، حق دوچرخه، کیک‌استارتر، پینترست، مدیتیشن، از مزرعه به میز، پاپ‌آپ دهه 90"
+    },
+    {
+      "id": 600,
+      "title": "رویای اوریو",
+      "category": "شیک‌ها",
+      "price": 18.99,
+      "img": "./images/item-6.jpeg",
+      "desc": "پورتلند، چیکرونز اخلاقی، لامپ ادیسون، چوب مقدس، آبجو دستی، چیا، آیفون میراثی، هر روز"
+    },
+    {
+      "id": 700,
+      "title": "اضافه بار بیکن",
+      "category": "صبحانه",
+      "price": 8.99,
+      "img": "./images/item-7.jpeg",
+      "desc": "حمل کردن جیان‌بینگ، نورم‌کور، فریگان. قهوه تک‌منشأ، لبه‌های زنده، شکم خوک، نان ابری، ایسلند، قرار دادن پرنده"
+    },
+    {
+      "id": 800,
+      "title": "کلاسیک آمریکایی",
+      "category": "ناهار",
+      "price": 12.99,
+      "img": "./images/item-8.jpeg",
+      "desc": "تنبلی، کیک‌استارتر، گربه‌های رعدآسا، میگاس، حمل روزانه، اسکویید، شلوار لگینگ، کامیون غذا، تروفو"
+    },
+    {
+      "id": 900,
+      "title": "دوست دوران قرنطینه",
+      "category": "شیک‌ها",
+      "price": 16.99,
+      "img": "./images/item-9.jpeg",
+      "desc": "اسکیت‌بورد، خانواده، سینث، نشانه‌شناسی اصیل. لبه‌های زنده، لیفت، لامپ ادیسون، یوکی، میکرو‌دوزینگ."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+   .card {
+     font-family: "YekanBakh Regular";
+     line-height: 1.5;
+     width: 670px;
+     height: 424px;
+     background-image: url("../../images/card.webp");
+
+     background-size: cover;
+
+     border-radius: 12px;
+     position: relative;
+     overflow: hidden;
+   }
+
+   .left__card {
+     background-image: url("../../images/Penthouse.webp");
+     background-size: cover;
+     border-radius: 12px;
+     transition: all ease-in-out 140ms;
+   }
+
+   .card__wrapper {
+     display: flex;
+     align-items: center;
+     gap: 16px;
+     position: absolute;
+     left: 20px;
+     top: -64px;
+     transition: all ease-in-out 140ms;
+   }
+
+   .card:hover .card__wrapper {
+     top: 20px;
+     cursor: pointer;
+   }
+
+   .card__messages {
+     width: 80px;
+     height: 48px;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 6px;
+     font-family: "YekabBakh Bold";
+     font-size: 18px;
+     color: #fff;
+     background-color: #1d2939;
+   }
+
+   .card__icon {
+     color: #ffffff;
+   }
+
+   .card__heart {
+     width: 48px;
+     height: 48px;
+     border-radius: 100px;
+     background: #f03e3e;
+
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+   /* cart Hover */
+   .card__content {
+     position: absolute;
+     bottom: -160px;
+     right: 0;
+     left: 0;
+     height: 142px;
+     padding: 36px 24px 24px;
+     color: #ffffff;
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+     transition: all ease-in-out 440ms;
+   }
+
+   .card:hover .card__content {
+     bottom: 0;
+   }
+
+   .card__title {
+     font-family: "YekanBakh Bold";
+     font-size: 24px;
+     margin-bottom: 16px;
+
+   }
+
+   .card__caption {
+     font-size: 20px;
+   }

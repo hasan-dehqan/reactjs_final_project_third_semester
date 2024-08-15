@@ -1,0 +1,26 @@
+.custom-input {
+  text-align: right;
+  color: #009a17;
+  height: 46px !important;
+  line-height: 46px !important;
+}
+
+.custom-input::placeholder {
+  color: #009a17;
+}
+
+.custom-days {
+  background-color: #c8daff;
+}
+
+.custom-days .is-week-days {
+  color: #d20000;
+}
+
+.custom-days .is-disabled {
+  color: #444;
+}
+
+.custom-header {
+  background-color: #538bff;
+}

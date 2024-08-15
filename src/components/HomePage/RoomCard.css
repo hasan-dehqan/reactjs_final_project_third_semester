@@ -1,0 +1,40 @@
+.cardInfo {
+    border-radius: 1.5rem;
+    background-color: #e2d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.imgCard {
+    width: 400px;
+    height: 350px;
+}
+
+.discCard {
+    margin: 8px 0;
+    padding: 0 12px;
+}
+
+.textCard {
+    margin-top: 8px;
+    color: black;
+}
+
+.spanCard {
+    color: blue;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-bottom-color: g;
+    padding: 7px;
+    border-radius: 7px;
+}

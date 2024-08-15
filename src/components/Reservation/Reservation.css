@@ -1,0 +1,9 @@
+.btnReserve {
+    bottom: 32px;
+    background-color: #0071c2;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

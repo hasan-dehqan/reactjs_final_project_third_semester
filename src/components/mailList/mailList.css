@@ -1,0 +1,51 @@
+.mail {
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px;
+    background: linear-gradient(135deg, #003580 0%, #0059b3 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mail:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mailInputContainer > input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #0071c2;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.mailInputContainer > input:focus {
+    border-color: #0059b3;
+}
+
+.mailInputContainer > button {
+    height: 40px;
+    padding: 0 20px;
+    background-color: #0071c2;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mailInputContainer > button:hover {
+    background-color: #0059b3;
+    transform: translateY(-3px);
+}

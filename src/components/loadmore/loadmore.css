@@ -1,0 +1,127 @@
+.loadmore__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.loadmore__title {
+  font-family: "Yekan Bakh";
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  background: #d9d9d9;
+  padding: 24px 8px 38px 24px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.content__text {
+  flex: 2;
+  direction: ltr;
+  text-align: right;
+  height: 288px;
+  overflow: hidden;
+  padding: 8px;
+  text-align: justify;
+}
+
+.content__img {
+
+  flex: 1;
+}
+
+.content__shadow {
+  width: 100%;
+  height: 158px;
+  background: linear-gradient(0deg,
+      #f5f5f5 0%,
+      rgba(245, 245, 245, 0.54) 71.07%,
+      rgba(245, 245, 245, 0) 100%);
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 38px;
+}
+
+.content__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 302px;
+  height: 48px;
+  font-family: "YekanBakh-Medium";
+  border-radius: 8px;
+  background-color: #eb5e28;
+  color: #fff;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  bottom: -5px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.content__open-icon,
+.content__close-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.content__close-icon,
+.content__close-text {
+  display: none;
+}
+
+.content--open .content__text {
+  /* height: auto; */
+  height: 500px;
+  /* overflow: visible; */
+  overflow-y: scroll;
+}
+
+.content--open .content__shadow {
+  display: none;
+}
+
+.content--open .content__open-icon {
+  display: none;
+}
+
+.content--open .content__close-icon {
+  display: block;
+}
+
+.content--open .content__open-text {
+  display: none;
+}
+
+.content--open .content__close-text {
+  display: block;
+}
+
+.content--open .content__btn {
+  background-color: #fff;
+  color: #eb5e28;
+  border: 1px solid #eb5e28;
+}
+
+/* width */
+.content__text::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.content__text::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.content__text::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 50px;
+}
